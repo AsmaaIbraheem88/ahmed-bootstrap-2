@@ -1,0 +1,381 @@
+* {
+
+    box-sizing: border-box;
+}
+
+
+
+.main-color {
+
+    color: red;
+
+}
+
+.main-background {
+
+    background-color: red;
+}
+
+.center {
+
+    text-align: center;
+}
+
+/*icon*/
+
+
+.icon {
+
+
+
+    background-color: #1d5898;
+
+    color: white;
+
+    padding: 10px;
+
+    font-size: 20px;
+
+    text-align: center;
+
+    min-height: 20px;
+
+
+}
+
+.icon p {
+
+    display: inline;
+
+    /*    float: left;*/
+
+    /*    padding-left: 20px;*/
+
+}
+
+/*navbar*/
+
+
+.navbar {
+
+    font-weight: bold;
+
+    font-size: 20px;
+
+}
+
+/*carousel*/
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 7px;
+    margin-right: 2px;
+    margin-left: 2px;
+    text-indent: -999px;
+    cursor: pointer;
+
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity 0.6s ease;
+
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 200px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 70px;
+    text-align: left;
+}
+
+.carousel-captions {
+    position: absolute;
+    right: 15%;
+    bottom: 200px;
+    left: 15%;
+    z-index: 10;
+
+    padding-bottom: 250px;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+
+/*card3*/
+
+.card3 {
+
+    /*    padding: 200px;*/
+
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+
+    /*    text-align: center;*/
+
+}
+
+.car {
+
+    padding-top: 30px;
+
+}
+
+.car-body {
+
+    padding: 20px;
+}
+
+.car svg {
+
+    color: white;
+
+    padding: 20px;
+
+    background-color: red;
+
+
+}
+
+/*
+.car .svg {
+    background-color: red;
+    width: 30%;
+
+    border-radius: 50%;
+    height: 40%;
+    margin: auto;
+}
+*/
+
+/*jumbotron*/
+
+.jumbotron {
+
+
+
+    margin-bottom: 0;
+
+    background-color: #ffffff;
+
+    border-radius: .3rem;
+
+}
+
+.jumbotron h1 {
+
+    font-weight: bold;
+}
+
+/*card2*/
+
+.card2 {
+
+    text-align: center;
+
+    padding-top: 20px;
+
+    padding-bottom: 100px;
+
+}
+
+
+.card img {
+
+    height: 250px;
+
+}
+
+.card-body a {
+
+    color: red;
+}
+
+.card2 .card {
+
+    text-align: center;
+
+    margin-bottom: 40px;
+
+}
+
+/*carousel*/
+
+.testimonials {
+    position: relative;
+}
+
+.testimonials .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 2;
+}
+
+
+
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 7px;
+    margin-right: 2px;
+    margin-left: 2px;
+    text-indent: -999px;
+    cursor: pointer;
+
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity 0.6s ease;
+
+}
+
+.carousel-caption2 {
+    position: absolute;
+    right: 15%;
+    bottom: 100px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.carousel-captions2 {
+    position: absolute;
+    right: 15%;
+    bottom: 200px;
+    left: 15%;
+    z-index: 10;
+    border-radius: 50%;
+    padding-bottom: 250px;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+
+/*card4*/
+
+.card4 {
+
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+
+    text-align: center;
+}
+
+.car2 {
+
+    padding-top: 30px;
+
+}
+
+.car2-body {
+
+    padding: 0px;
+}
+
+.car2 svg {
+
+    color: #1d5898;
+
+    padding: 10px;
+
+}
+
+/*Numbers*/
+
+.numbers {
+
+
+
+    background-color: red;
+
+    color: white;
+
+    padding: 100px;
+
+    text-align: center;
+
+
+
+}
+
+.numbers button {
+
+    border: 2px solid white;
+
+    color: white;
+
+    background-color: red;
+}
+
+/*letters*/
+
+.letters {
+
+    padding-top: 50px;
+
+    padding-bottom: 50px;
+
+}
+
+.letters h1 {
+
+    font-weight: bold;
+
+}
+
+.letters .one {}
+
+.letters .two {
+
+    color: #1d5898;
+
+    font-size: 20px;
+}
+
+.letters button {
+
+    color: #1d5898;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    padding: 0px;
+
+}
+
+.letters .contact {}
+
+/*footer*/
+
+.footer {
+
+    font-weight: bold;
+
+    padding: 20px;
+
+}
